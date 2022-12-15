@@ -27,27 +27,27 @@ Android studio
 
 #Project Dependencies 
 
-- React Navigation
-npm install @react-navigation/native @react-navigation/native-stack</b>
-Expo managed project:
-expo install react-native-screens react-native-safe-area-context
+ #React Navigation
+- npm install @react-navigation/native @react-navigation/native-stack
+- expo managed project:
+- expo install react-native-screens react-native-safe-area-context
 
-- Gradient
- expo install expo-linear-gradient
- npm install @react-native-masked-view/masked-view": "0.2.8"
+# Gradient
+ - expo install expo-linear-gradient
+ - npm install @react-native-masked-view/masked-view": "0.2.8"
 
-- Import SVG
+#Import SVG
 
-expo install react-native-svg
-npm install react-native-svg-transformer
+- expo install react-native-svg
+- npm install react-native-svg-transformer
 
-- Checkbox
+#Checkbox
 
-npm install react-native-elements
+- npm install react-native-elements
 
-- Form
+# Form
 
-npm install react-hook-form
+- npm install react-hook-form
 
 
 
