@@ -28,7 +28,7 @@ Android studio
 #Project Dependencies 
 
 - React Navigation
-npm install @react-navigation/native @react-navigation/native-stack
+npm install @react-navigation/native @react-navigation/native-stack</b>
 Expo managed project:
 expo install react-native-screens react-native-safe-area-context
 
