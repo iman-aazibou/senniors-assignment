@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import GradientText from "./Gradient";
+import GradientText from "../components/Gradient";
 
 import {
   Animated,
@@ -12,13 +12,15 @@ import {
 } from "react-native";
 
 //comp
-import Header from "./Header";
+import Header from "../components/Header";
 export default function Home({ navigation }) {
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
   const pressHandler = () => {
-    navigation.navigate("Form");
+    navigation.navigate("Form")
   };
+
+
 
   useEffect(() => {
     Animated.timing(fadeAnim, {
@@ -98,8 +100,8 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   body: {
     padding: 40,
-    paddingTop: 50,
-    paddingBottom: 50,
+    paddingTop: 20,
+    paddingBottom: 30,
   },
   text: {
     color: "#59667D",

@@ -7,8 +7,8 @@ import {
   ImageBackground,
 } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import Header from "./Header";
-import GradientText from "./Gradient";
+import Header from "../components/Header";
+import GradientText from "../components/Gradient";
 
 export default function LoggedUserHome() {
   return (
@@ -227,9 +227,9 @@ const styles = StyleSheet.create({
   btnMum: {
     backgroundColor: "#5fd7ff",
     borderRadius: 10,
-    padding: 2,
     width: 70,
     alignItems: "center",
+    justifyContent: "center",
   },
   userName: {
     fontSize: 25,
@@ -275,10 +275,16 @@ const styles = StyleSheet.create({
   santitariaTitle: {
     color: "#f4a8ab",
     fontSize: 20,
+    paddingRight: 2,
   },
   fisioSelect: {
     flexDirection: "row",
     alignItems: "center",
+  },
+  fisioterapia: {
+    fontSize: 20,
+    fontWeight: "bold",
+    paddingLeft: 2,
   },
   options: {
     flexDirection: "row",
