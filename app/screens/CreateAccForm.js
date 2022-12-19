@@ -187,9 +187,8 @@ export default function CreateAccForm({ navigation }) {
           )}
           name="password"
         />
-        <Text>
-          La Contraseña deberá tener al menos 8 caracteres. contener mayúsculas
-          y números.
+        <Text style={styles.infoText}>
+          La Contraseña deberá tener al menos 8 caracteres.
         </Text>
       </View>
       <View style={styles.container}>
